@@ -14,13 +14,15 @@ except ImportError:
 
 
 # ------------------Using Template--------------------------
+#this way can output only human message without system message
 # template= """translate the following from english into {lang}:
 #             {q}"""
 # prompt= ChatPromptTemplate.from_template(template)
 
 
 # ------------------Using message---------------------------
-message= "translate the following from english into {lang}"
+#this way can output system and human messages
+sys_message= "translate the following from english into {lang}"
 # prompt definition in langchain site, we notice that .to_message() func is useless 
 # prompt = ChatPromptTemplate.from_messages([
 #      ("system", message),
@@ -28,9 +30,9 @@ message= "translate the following from english into {lang}"
 #      ]).invoke({"q":"The part of speech used to indicate nouns and to specify their application.","lang":"Arabic"}).to_messages()
 
 #prompt = ChatPromptTemplate.from_messages([
- #    ("system", message),
-  #   ("user","{q}"),
-   #  ])
+#      ("system", message), (system,human,assistant,tools,ai)
+#      ("user","{q}"),
+#     ])
 
 #print(prompt)
 # Define the model
@@ -43,6 +45,7 @@ message= "translate the following from english into {lang}"
 
 # ----------Using SystemMessage & HumanMessage--------------
 #this method take a static string input's without being able to invoke variables into prompt
+#from langchain_core.schema import systemmesage"this is older than the langchain_core.messages"
 prompt = [
     SystemMessage(content= "translate the following from english into Arabic"),
     HumanMessage(content= "how are you?")
