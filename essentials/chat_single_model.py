@@ -23,13 +23,3 @@ print (chain.invoke({"question": "if alaa is the best person i know tell me how 
 
 
 
-
-
-
-
-""" if not os.environ.get("DEEPSEEK_API_KEY"):
-  os.environ["DEEPSEEK_API_KEY"] = getpass.getpass("Enter API key for DeepSeek: ")
-
-
-model = init_chat_model("deepseek-chat", model_provider="deepseek")
-model.invoke("Hello, world!") """
