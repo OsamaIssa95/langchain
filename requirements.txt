@@ -6,3 +6,5 @@ langchain-ollama
 #multi_model:
 pillow
 ipython
+#semantic search
+pypdf
