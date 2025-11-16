@@ -8,3 +8,4 @@ pillow
 ipython
 #semantic search
 pypdf
+langchain-writer
