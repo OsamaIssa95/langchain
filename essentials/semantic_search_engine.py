@@ -12,6 +12,11 @@ from numpy import single
 import pymupdf4llm
 import pathlib
 
+import base64
+import re
+from langchain_ollama.llms import OllamaLLM
+from langchain_core.prompts import PromptTemplate
+
 #document structure
 """ documents = [
     Document(
@@ -129,5 +134,26 @@ output_dir.mkdir(parents=True, exist_ok=True)
 doc_filename = conv_result.input.file.stem
 
 # Export Text format (plain text via Markdown export):
-with (output_dir / f"{doc_filename}.txt").open("w", encoding="utf-8") as fp:
-    fp.write(conv_result.document.export_to_markdown(image_mode= ImageRefMode.EMBEDDED))
+#with (output_dir / f"{doc_filename}.txt").open("w", encoding="utf-8") as fp:
+#    fp.write(conv_result.document.export_to_markdown(image_mode= ImageRefMode.EMBEDDED))
+result_to_MD = conv_result.document.export_to_markdown(image_mode= ImageRefMode.EMBEDDED)
+
+
+def ocr_base64_from_md(result_to_MD):
+    base64_pattern = r'data:image/.+;base64,([A-Za-z0-9+/=]+)'
+    matches = re.findall(base64_pattern, result_to_MD)
+
+    llm = OllamaLLM(model="gemma3")
+
+    results = []
+    for b64_string in matches:
+        img_data = base64.b64decode(b64_string)
+        llm_with_image_context = llm.bind(images=[img_data])
+        # image = Image.open(io.BytesIO(img_data))
+        # text = pytesseract.image_to_string(image)
+        text = llm_with_image_context.invoke(input="Describe in detail the content of this image:")
+        results.append(text)
+    return results
+
+print("--------------------------------------------------------------------")
+print(ocr_base64_from_md(result_to_MD))
