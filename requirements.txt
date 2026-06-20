@@ -9,3 +9,5 @@ ipython
 #semantic search
 pypdf
 langchain-writer
+langchain-core
+docling

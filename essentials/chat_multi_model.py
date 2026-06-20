@@ -13,8 +13,8 @@ def convert_to_base64(pil_image):
   
   
 def plt_img_base64(img_base64):
-        image_html = f'<img src="data:image/jpeg;base64,{img_base64}" />'
-        display(HTML(image_html))
+    image_html = f'<img src="data:image/jpeg;base64,{img_base64}" />'
+    display(HTML(image_html))
         
 
 file_path = "static/img/tower.jpg"
