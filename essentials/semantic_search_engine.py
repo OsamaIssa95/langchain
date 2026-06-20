@@ -1,21 +1,21 @@
-from turtle import mode
-from PIL import ImageMode
-from docling_core.types.doc.base import ImageRefMode
-from langchain_core.documents import Document
-from langchain_community.document_loaders import FileSystemBlobLoader
-from langchain_community.document_loaders.parsers import PyPDFParser, TesseractBlobParser, language
+from docling.datamodel.pipeline_options import (PdfPipelineOptions, TableStructureOptions, TesseractCliOcrOptions)
+from langchain_community.document_loaders.parsers import PyPDFParser, TesseractBlobParser
+from docling.document_converter import DocumentConverter, PdfFormatOption
 from langchain_community.document_loaders.generic import GenericLoader
+from langchain_community.document_loaders import FileSystemBlobLoader
+from docling.document_converter import DocumentConverter
+from docling.datamodel.base_models import InputFormat
+from docling_core.types.doc.base import ImageRefMode
 from langchain_pymupdf4llm import PyMuPDF4LLMParser
-
-from langchain_text_splitters import Language
-from numpy import single
-import pymupdf4llm
-import pathlib
-
-import base64
-import re
+from langchain_core.documents import Document
 from langchain_ollama.llms import OllamaLLM
-from langchain_core.prompts import PromptTemplate
+from pathlib import Path
+import pymupdf4llm
+import base64
+import time
+import re
+
+
 
 #document structure
 """ documents = [
@@ -30,68 +30,31 @@ from langchain_core.prompts import PromptTemplate
 ] """
 
 
-""" def pdfloader(path: str, exclude: list [str]) -> list[Document]:
-    #"""#This function loads a PDF file from the given path and returns a list of Document objects.
-   # Args:
-   #    path: The path to the PDF file.
-   # Returns:
-   #     A list of Document objects.
-"""
+def pdfloader(path: str, exclude: list [str]) -> list[Document]:
+    # This function loads a PDF file from the given path and returns a list of Document objects.
+    # Args:
+    #    path: The path to the PDF file.
+    # Returns:
+    #     A list of Document objects.
+
     loader = GenericLoader(   
-        blob_loader=FileSystemBlobLoader(
-            path=path,
-            glob="*.pdf",
-            exclude=exclude,
-            ),
-     
-        blob_parser= PyMuPDF4LLMParser(
-                mode="single",
-          ),
-    )
+                            blob_loader=FileSystemBlobLoader(
+                                                                path=path,
+                                                                glob="*.pdf",
+                                                                exclude=exclude,
+                                                            ),
+                            blob_parser= PyMuPDF4LLMParser(
+                                                            mode="single",
+                                                          ),
+                        )
     docs = loader.load()
     return docs
 
-docs = pdfloader("static/PDF/", exclude=["im.pdf", "Motivation letter.pdf"])
-print(docs[0].page_content)
-print("______________________________________________________________________________________________") """
-""" docs = pdfloader("static/PDF/im.pdf") ()
-print(docs[0].page_content)
-print("______________________________________________________________________________________________")
 
-md_text = pymupdf4llm.to_markdown("./static/PDF/im.pdf", pages=[0], write_images=True,extract)
-#pathlib.Path("output.md").write_bytes(md_text.encode())
-print(md_text) """
-""" from docling.document_converter import DocumentConverter
-converter = DocumentConverter()
-doc = converter.convert(docs).document
-print(doc.export_to_markdown()) """
-""" blob_parser=PyPDFParser(
-            mode="single",
-            pages_delimiter="--------end--------",
-            images_inner_format="markdown-img",
-            images_parser= TesseractBlobParser(),
-            extraction_mode="layout",
-            ), """
+
             
-import json
-import logging
-import time
-from pathlib import Path
-
-from docling.datamodel.accelerator_options import AcceleratorDevice, AcceleratorOptions
-
-from docling.datamodel.base_models import InputFormat
-from docling.datamodel.layout_model_specs import LayoutModelConfig
-
-from docling.datamodel.pipeline_options import (
-    PdfPipelineOptions,
-    TableStructureOptions,
-    TesseractCliOcrOptions,
-    LayoutOptions,
-    
-)
-from docling.document_converter import DocumentConverter, PdfFormatOption
-
+"""
+#docling
 data_folder = Path("./static/PDF/")
 input_doc_path = data_folder / "im.pdf"
 tess_ocr = TesseractCliOcrOptions(
@@ -157,3 +120,26 @@ def ocr_base64_from_md(result_to_MD):
 
 print("--------------------------------------------------------------------")
 print(ocr_base64_from_md(result_to_MD))
+"""
+def main():
+    # laoding pdf using langchain func
+    # docs = pdfloader("static/PDF/", exclude=["im.pdf", "Motivation letter.pdf"])
+    # print(docs[0].page_content)
+    #try text
+    md_text = pymupdf4llm.to_markdown("./static/PDF/im.pdf", pages=[0], write_images=True)
+    #pathlib.Path("output.md").write_bytes(md_text.encode())
+    print(md_text) 
+    """
+    converter = DocumentConverter()
+    doc = converter.convert(docs).document
+    print(doc.export_to_markdown()) 
+    blob_parser=PyPDFParser(
+            mode="single",
+            pages_delimiter="--------end--------",
+            images_inner_format="markdown-img",
+            images_parser= TesseractBlobParser(),
+            extraction_mode="layout",
+            ), 
+    """
+if __name__ == "__main__":
+    main()
