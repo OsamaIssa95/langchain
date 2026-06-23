@@ -1,5 +1,6 @@
 from docling.datamodel.pipeline_options import (PdfPipelineOptions, TableStructureOptions, TesseractCliOcrOptions)
 from langchain_community.document_loaders.parsers import PyPDFParser, TesseractBlobParser
+from langchain_community.document_loaders.parsers.images import LLMImageBlobParser
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from langchain_community.document_loaders.generic import GenericLoader
 from langchain_community.document_loaders import FileSystemBlobLoader
@@ -9,7 +10,9 @@ from docling_core.types.doc.base import ImageRefMode
 from langchain_pymupdf4llm import PyMuPDF4LLMParser
 from langchain_core.documents import Document
 from langchain_ollama.llms import OllamaLLM
+from langchain_ollama import ChatOllama
 from pathlib import Path
+from ollama import embed
 import pymupdf4llm
 import base64
 import time
@@ -36,6 +39,10 @@ def pdfloader(path: str, exclude: list [str]) -> list[Document]:
     #    path: The path to the PDF file.
     # Returns:
     #     A list of Document objects.
+    #define the LLM model:
+    vlm_model = ChatOllama(model="gemma3", temperature=0)
+    #initialize image parser:
+    vlm_image_parser = LLMImageBlobParser(model=vlm_model, prompt="Describe the content of this image:")
 
     loader = GenericLoader(   
                             blob_loader=FileSystemBlobLoader(
@@ -44,7 +51,9 @@ def pdfloader(path: str, exclude: list [str]) -> list[Document]:
                                                                 exclude=exclude,
                                                             ),
                             blob_parser= PyMuPDF4LLMParser(
-                                                            mode="single",
+                                                            mode="single",                                                            
+                                                            images_parser=vlm_image_parser,
+                                                            extract_images=True
                                                           ),
                         )
     docs = loader.load()
@@ -101,12 +110,14 @@ doc_filename = conv_result.input.file.stem
 #    fp.write(conv_result.document.export_to_markdown(image_mode= ImageRefMode.EMBEDDED))
 result_to_MD = conv_result.document.export_to_markdown(image_mode= ImageRefMode.EMBEDDED)
 
+"""
 
-def ocr_base64_from_md(result_to_MD):
+def ocr_base64_from_md(result_to_MD, llm):
+    
     base64_pattern = r'data:image/.+;base64,([A-Za-z0-9+/=]+)'
     matches = re.findall(base64_pattern, result_to_MD)
 
-    llm = OllamaLLM(model="gemma3")
+    #llm = OllamaLLM(model="gemma3")
 
     results = []
     for b64_string in matches:
@@ -118,17 +129,28 @@ def ocr_base64_from_md(result_to_MD):
         results.append(text)
     return results
 
-print("--------------------------------------------------------------------")
-print(ocr_base64_from_md(result_to_MD))
-"""
+
+
+
 def main():
     # laoding pdf using langchain func
-    # docs = pdfloader("static/PDF/", exclude=["im.pdf", "Motivation letter.pdf"])
-    # print(docs[0].page_content)
+    docs = pdfloader("static/PDF/", exclude=["im.pdf", "CV.pdf", "scan.pdf", "Motivation letter.pdf"])
+    with open( encoding= "utf-8", file="out3.txt", mode= "w") as f:
+        f.write(docs[0].page_content) 
     #try text
-    md_text = pymupdf4llm.to_markdown("./static/PDF/im.pdf", pages=[0], write_images=True)
+    """  
+    llm = OllamaLLM(model="gemma3")
+    start_time = time.time()
+    md_text = pymupdf4llm.to_markdown("./static/PDF/2.pdf", embed_images=True)
+    end_time = time.time() - start_time
+    with open( encoding= "utf-8", file="out.txt", mode= "w") as f:
+        f.write( ocr_base64_from_md(md_text, llm)[1])
+        f.write("------------------------------------------")
+        f.write( md_text)
+    # Overwrites existing file or creates a new one
     #pathlib.Path("output.md").write_bytes(md_text.encode())
-    print(md_text) 
+    print(end_time)
+    """
     """
     converter = DocumentConverter()
     doc = converter.convert(docs).document

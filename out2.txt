@@ -1,0 +1,1127 @@
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+# **SPECTROPHOTOMETRIC DETERMINATION OF** **PHOSPHATES IN DETERGENT SAMPLES AVAILABLE** **IN TANSEN, PALPA**
+
+
+_**Yub Narayan Thapa****_
+_**Email : thewaiyenthapa@gmail.com**_
+
+_**Tribikram Khadka***_
+
+_**Email : tribikramk889@gmail.com**_
+
+
+_**Keywords**_ **:** Chelating agent, Eutrophication, Molybdenum blue phosphorus method, Spectroscopy _._
+
+## **Introduction**
+
+
+Phosphorous is one of the abundant elements found on earth's crust in the form of
+phosphate, which plays a crucial role in the biochemical process. Phosphates are used in
+detergents as builders or chelating agents in the form of sodium tripolyphosphate or sodium
+pyrophosphate, which remove Calcium and Magnesium ions present in hard water, thereby
+making it soft and increasing the efficiency of surfactants (Hossain et al., 2017). A large amount
+of phosphate is passed into water bodies by household waste discharge, detergents, sugar
+industries, and fertilizers which flourishaquaticvegetation and phytoplankton. This accelerates
+the natural aging of lakes which is called eutrophication. Consequently, dissolved oxygen in
+water decreases and kills aquatic life, disordering the aquatic ecosystem (Kundu et al., 2015;
+Oliveira & Machado, 2013). The significant contribution to soluble phosphorous in municipal
+
+
+lqe'jg hg{n _**(Tribhuvan Journal)**_ 133
+
+
+_****Lecturer:Tribhuvan Multiple Campus, Palpa   *Student:Tribhuvan Multiple Campus, Palpa**_
+
+
+
+-----
+
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+
+wastewater is household detergents (Audu, A.A.& Yusuf, 2015). Thus, it is mandatory to assess
+the amount of phosphates in detergents. Many methods for the determination of phosphate have
+been recorded, like titrimetry, HPLC, complexometry, atomic absorption spectroscopy, flow
+injection analysis, and spectrophotometry (Oladeji et al., 2016; Shyla et al., 2011). However,
+the spectrophotometric molybdenum blue method is the most common, efficient, and
+economical. This method involves forming molybdophosphoric acid from orthophosphate and
+the excess of the molybdate in the acidic medium, which is then reduced to give molybdenum
+blue. The phosphate concentration in the detergent sample is directly proportional to the
+intensity of blue colour developed, which can be measured spectrophotometrically at the
+wavelength of maximum absorbance; �Max(Adelowo & Agele, 2016). Different types of
+reducing agents have been reported in literature like sodium sulphide (Agbazue et al., 2015),
+thiourea (Shyla et al., 2011), sodium thiosulphate (Nalumansi et al., 2020), hydrazine hydrate
+(Pradhan &Pokhrel, 2013), and so on. This research aims to assess the amount of phosphate in
+detergent samples of local and foreign brands and observe if there is a significant difference
+between them.
+
+## **Materials and methods** **Instruments**
+
+
+Scanning Visible Spectrophotometer Model EI-2306, an Electronic Balance (Four Digits),
+MuffleFurnace Model- Vivo India, and Water Bath (Grant OLS-200) were used.
+
+
+**Preparation of standard solution**
+
+All the solutions were prepared using distilled water.
+
+**Phosphate stock solution**
+
+0.717gm of potassium dihydrogen phosphate (KH2PO4) was dissolved in a 500 mL
+volumetric flask with distilled water, and the volume was made up to the mark by adding more
+distilled water. Thus, the prepared solution was exactly 1000 ppm and was diluted to get a 50
+ppm solution which was used as a working phosphate solution.
+
+
+**Preparation of working Ammonium molybdate solution (2.5%)**
+
+50 mL of 5% ammonium molybdate solution was diluted and made up to the mark in 100
+mL of the volumetric flask by adding more distilled water.
+
+
+**Preparation of sulphuric acid solution (10N)**
+
+27.5 ml of concentrated sulphuric acid was diluted to 100 ml in a volumetric flask.
+
+
+**Preparation of hydrazine hydrate (0.5M)**
+
+2.5 ml of concentrated hydrazine hydrate solution was diluted to 100 ml in a volumetric
+flask.
+
+
+**Preparation of detergent sample solution**
+
+5.0 gm of the detergent sample was accurately weighed in a crucible and was placed inside
+the muffle furnace for about half an hour at 330�. Detergent ash so obtained was taken in a 250
+mL beaker and dissolved in 50 mL distilled water. This solution was then acidified by adding 2
+
+**�** [134] lj1;dLlIft cGtlj{ifos hg{n _**(Peer Reviewed Interdisciplinary Journal)-**_ @)&(
+
+
+
+-----
+
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+
+
+5 ml
+
+sulph
+trans **f**
+
+for p **h**
+
+
+
+of dilute sulph **u**
+ide, nitrite, etc **.**
+
+erred into a 1 **0**
+
+osphate deter **m**
+
+## **aration of s**
+
+he linear relat **i**
+
+
+**a** libration curv **e**
+
+on of 50 ppm he subsequent zine hydrate. **T**
+
+the complete **d**
+easured, and t **h**
+
+## **edure for p**
+
+he concentrat **i**
+
+f a calibration
+
+and 8 ml of 2. **5**
+
+phuric. After **c**
+
+up to the mar **k**
+opment for at **l**
+on was tho **r**
+
+ophotometer ( **P**
+## **lts and disrmination**
+
+he absorbanc **e**
+
+
+**e** d themaximu **m**
+
+
+
+**e**
+
+**l**
+
+**r**
+
+**n**
+
+**m**
+
+
+prepare stand **a**
+
+**h** er reagents lik **e**
+
+**s** were left in t **h**
+
+**f** the blue colo **u**
+
+**e** values were **u**
+
+## **eterminatio**
+
+**t**
+
+**m** e in the detergple solution **o**
+**m** molybdate sol **u**
+**n** g, 4 mL 0.5 **M**
+
+**t**
+
+**e**
+**h** asks were kept es. After the n and used arel,2013).
+
+## **absorban**
+
+[0]
+
+## Wave [ine the analyt][tered through ][ic flask and di] [ution for th] [ated on a hot ][ absorbance a] [W][e][p][n]
+
+
+## **Prep**
+
+**T**
+
+the c **a**
+
+solut **i**
+
+with **t**
+
+Hydr **a**
+After
+
+was **m**
+
+
+
+prepare stand **a**
+er reagents lik **e**
+
+were left in t **h**
+
+the blue colo **u**
+
+
+**e** values were **u**
+
+
+
+
+**[l]** 10 minutes to ter paper, and
+
+mark. This so **l**
+
+## **on curve**
+
+ation of phosp **h**
+
+**o** ncentration. **P**
+
+2,4,6,8,10,12,olybdate, Sul **p**
+
+t 37�� for ab **o**
+
+ce of each ph **o**
+a standard caltion was dete **r**
+
+taken in a 10 **0**
+
+
+**d** to it followe **d**
+
+drate solution at 37�� for **m**
+
+lopment of bl **u**
+
+nce measure **m**
+
+_elength_
+
+
+
+_elength_
+
+
+st the reagent blank solutio **n**
+
+.
+
+
+g{n _**(Tribhuvan Journal)**_ 135
+
+
+## **Proc**
+
+**T**
+
+help **o**
+flask,
+N su **l**
+
+made
+
+devel
+
+solut **i**
+
+spect **r**
+
+
+
+ric acid and h **e**
+
+It was then fi **l**
+
+0 mL volumet **r**
+
+ination.
+
+## **tandard sol**
+
+onship betwee **n**
+
+**e** helps deter **m**
+
+was diluted to
+
+addition of ot **h**
+
+
+**T** hese solution **s**
+
+
+evelopment o **f**
+
+**h** ese absorbanc **e**
+
+## **hosphate d**
+
+
+on of phospha **t**
+
+curve. 4 ml sa **m**
+
+
+**5** % ammoniu **m**
+
+
+omplete shaki **n**
+. Then these fleast 35 minu **t**
+
+oughly shak **e**
+radhan &Pok **h**
+
+
+
+ent sample sol **u**
+f detergent wa **s**
+
+**u** tion was adde **d**
+
+
+hydrazine h **y**
+
+in a water bat **h**
+
+complete dev **e**
+
+
+
+expel hydroge **n**
+
+the filtrate wa **s**
+
+
+**l** ution was use **d**
+
+**h** ate solution i **n**
+
+
+hosphate stoc **k**
+14 and 16 pp **m**
+huric acid, an **d**
+
+
+**o** ut 35 minutes **.**
+
+
+sphate solutio **n**
+
+ibration curve. mined with th **e**
+
+ml volumetri **c**
+
+by 2 mL of 1 **0**
+was added an **d**
+
+aximum colou **r**
+
+
+**u** e colour, thi **s**
+
+ent using **a**
+
+
+## **Resu**
+
+
+## **cussion**
+
+
+
+
+**[p]**
+
+**[W]**
+
+luted up to the
+
+## **e Calibrati**
+
+
+**[n]** d the concent **r**
+
+
+'s unknown c **o**
+
+rd solutions o **f**
+
+Ammonium **m**
+
+
+**h** e water bath **a**
+
+
+r, the absorba **n**
+sed for drawin **g**
+
+## **n**
+
+
+ent sample sol **u**
+f detergent wa **s**
+
+**u** tion was adde **d**
+
+
+hydrazine h **y**
+
+in a water bat **h**
+
+complete dev **e**
+
+for absorba
+
+## **ce**
+
+_ce against wa_ _**v**_
+
+**w** solution againn in [0] _**Figure 2**_ .
+
+[late for about hatman-42 fi] lqe'jg **h** **[l]**
+
+
+
+for absorba
+
+## **ce**
+
+_ce against wa_ _**v**_
+
+[0]
+
+
+## **Dete**
+
+
+## **of maximum**
+
+
+
+
+
+
+
+
+
+
+## **eterminatio**
+
+**m** e in the detergple solution **o**
+
+molybdate sol **u**
+
+**n** g, 4 mL 0.5 **M**
+
+asks were kept es. After the n and used arel,2013).
+
+## **absorban**
+
+_lot of absorba_ _**n**_
+rd phosphate 830 nm as sho **w** [0]
+
+
+
+
+[0]
+
+
+
+
+
+_ce against wa_ _**v**_ _elength_
+
+**w** solution againn in [0] _**Figure 2**_ st the reagent .
+
+
+lqe'jg **h** g{n _**(Tribhuvan**_
+
+
+
+st the reagent
+
+.
+
+
+
+the filtrate wa **s**
+
+ution was use **d**
+
+ate solution i **n**
+
+hosphate stoc **k**
+14 and 16 pp **m**
+huric acid, an **d**
+
+ut 35 minutes **.**
+
+sphate solutio **n**
+
+ibration curve. mined with th **e**
+
+ml volumetri **c**
+
+by 2 mL of 1 **0**
+was added an **d**
+
+aximum colou **r**
+
+e colour, thi **s**
+ent using **a**
+
+
+blank solutio **n**
+
+
+
+**T**
+
+show **e**
+
+
+
+_**Figure 2**_ _.A_ _**p**_
+
+of the stand **a**
+
+absorbance a **t**
+
+
+
+-----
+
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+
+**�** **�** **�** **�**
+
+|Sampleno<br>.|Sampleabsorbance|Concentration(ppm)|Percentage<br>compositionof<br>phosphate(%)|
+|---|---|---|---|
+|A|0.147<br><br><br>|24.75<br><br>|0<br>.04951 <br>|
+|B|0.098<br><br><br>|15.54 <br><br>|0.<br>031083<br>|
+|C|0.139<br><br><br>|23.25<br><br>|0.<br>046501<br>|
+|**_Figur_**<br><br>**_e 3_**_. Standard c_<br><br>_alibration curv_**_e_**<br><br><br>|**_Figur_**<br><br>**_e 3_**_. Standard c_<br><br>_alibration curv_**_e_**<br><br><br>|**_Figur_**<br><br>**_e 3_**_. Standard c_<br><br>_alibration curv_**_e_**<br><br><br>|**_Figur_**<br><br>**_e 3_**_. Standard c_<br><br>_alibration curv_**_e_**<br><br><br>|
+|D|0.108<br><br>|17.42<br><br>|0.<br>034843<br>|
+|E|0.178<br><br>|30.58<br><br>|0.<br>061168<br>|
+|F|0.191 <br><br>|33.03<br><br>|0.<br>066056<br>|
+|G|0.171 <br><br>|29.27<br><br>|0.<br>058535<br>|
+|H|0.138<br><br>|23.06<br><br>|0.<br>046125<br>|
+|I|0.142<br><br>|23.81<br><br>|0.<br>047629<br>|
+|J|0.186<br><br>|32.09<br><br>|0.<br>064176<br>|
+|K|0.189<br><br>|32.65<br><br>|0.<br>065304 <br>|
+|L|0.150<br><br>|25.32 <br><br>|0.<br>050638<br>|
+|M|0.166<br><br>|28.33 <br>|0.<br>056655|
+
+
+
+**�**
+
+
+## **Cali**
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+[30x + 0.034 = 0.981]
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+a wavelength **o** f 830 nm and
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+The
+
+plot **t** **�** **�** **�** **�**
+
+
+**�**
+
+
+
+absorbance of **s**
+
+ed against con **c** **�** **�** **�** **�**
+
+## **phate level**
+
+ight detergent atka) of local **b**
+
+**E** xcel, Tide an **d**
+
+and foreign de **t**
+nd percentage
+
+
+**�**
+
+
+
+
+**[h]** ate solutions **w**
+
+**[o]** wn in **Error!** **�** **R** **�** **�** **�**
+
+## **nt samples**
+
+**n** i, Light, V-Se **r**
+**c** tured in Nepa **l**
+**e** ther, 13 samp **l**
+
+**s** were measure
+
+_**Table 3**_ .
+
+_**a**_ _tion of phosph_ _**a**_
+
+
+_**Reviewed Inte**_
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+## **Phos**
+
+
+**E**
+
+Dr J **h**
+
+Surf **E**
+
+local
+
+ppm **a**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+Rin Shakti an **d**
+
+, Super Check **,**
+shown by th **e**
+
+**o** f phosphate i **n**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+_**Table 3.**_
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+ate solutions **w** as measured a **t**
+
+**Error!** **�** **Reference** **�** **sourc** **�** **�**
+
+## **nt samples**
+
+**r** ies, Nirma, Up **a**
+tured in Nepa **l** and 5 Indian **b**
+ther, 13 samp **l** es were analy **z**
+
+d at 830 nm, a **n**
+
+
+.
+
+_**a**_ _te in different_ _**d**_
+
+
+**�** _**Reviewed Interdisciplinary Jo**_
+
+
+
+as measured a **t** a wavelength
+
+**�** **eference** **�** **source** **�** **not** **�** **found.** **.**
+
+
+ies, Nirma, Up **a**
+and 5 Indian **b** har, Patanjali, rands (Whee
+es were analy **z** ed.Absorbanc
+
+d at 830 nm, a **n** d the amount
+
+_te in different_ _**d**_ _etergent samp_
+
+
+**�** _**rdisciplinary Journal)-**_ @)&(
+
+
+
+**�** **�** **�** **�**
+
+
+d at 830 nm, a **n**
+
+_te in different_ _**d**_
+
+
+**�**
+
+
+
+a wavelength **o**
+
+**�** **�** **e** **�** **not** **�** **found.** **.**
+
+
+har, Patanjali, rands (Whee **l**
+ed.Absorbanc **e**
+
+d the amount **o**
+
+_etergent samp_
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+, Super Check **,**
+shown by th **e**
+
+**o** f phosphate i **n**
+
+
+_les_
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+_les_
+
+
+**�**
+
+
+
+ate solutions
+
+
+**[o]** wn in **Error!** **�** **R** **�** **�** **�**
+
+## **nt samples**
+
+i, Light, V-Se **r**
+tured in Nepa
+ther, 13 samp
+
+were measure
+
+_**able 3**_ .
+
+_tion of phosph_
+
+_**e 3**_ [30x + 0.034 = 0.981] _. Standard c_
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+samples (Dho **n**
+rands manufa **c**
+
+Ariel); altog **e**
+ergent sample **s**
+are shown in _**T**_
+
+_The concentr_ _**a**_
+## [entration as sh][tandard phosp] {ifos hg{n [s in deterge][e ] (Peer [h][o]
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�**
+
+
+
+**�** **�** **�** **�**
+
+
+**�** [136]
+
+
+
+absorbance of **s**
+
+ed against con **c** **�** **�** **�** **�**
+
+## **phate level**
+
+ight detergent atka) of local **b**
+
+**E** xcel, Tide an **d**
+
+and foreign de **t**
+nd percentage
+
+
+_**Table 3.**_
+## [bration curv] lj1;dLlIft cGt lj
+
+
+**�**
+
+
+
+-----
+
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+
+In this study, some local brands of detergents contained a higher amount of phosphate than
+the foreign brands. Local detergent sample-F had the highest amount of phosphate, i.e. 33.03
+ppm. Similarly, local detergent sampleB had the lowest amount of phosphate, i.e. 15.54 ppm.
+Other samples showed the amount of phosphate in the range of 15-33 ppm. This result showed
+that there is a higher variation in the amount of phosphate between local detergents.
+
+
+Similarly, sampleK had a higher amount of phosphate among foreign detergents, i.e. 32.65
+ppm, and sample-I had the lowest amount of phosphate, i.e. 25.32 ppm. This showed that there
+is no higher variation in phosphate between foreign detergents.
+
+
+When the amount of phosphate was compared between these two brands of detergents, the
+assumption of normality was checked using the Shapiro-Wilk test and found the observed data
+sets distributed normally (p-value = 0.3564) > 0.05. For the test of equality of means, student's t-test was conducted and obtained t = -1.364, df =11, p-value = 0.200 > 0.05 (5% level of
+significance), which revealed that there is no significant difference in the concentration of
+phosphate in local and foreign detergent samples.
+
+
+The international permissible limit of phosphate in detergents is 0.5%. All local and
+foreign detergent samples which were used for this study contained acceptable limits of
+phosphate.
+
+## **Conclusion**
+
+
+Results revealed that despite higher variation of concentration of phosphates in local brands
+than foreign brands, the statistical test showed no significant difference between them. The
+concentration of phosphate levels in the detergent samples analyzed were found to be within the
+international standard limit of 0.5%, which shows that these detergents are safer to use
+considering the phosphate concentration.
+
+## **Acknowledgments**
+
+
+The authors are indebted to the department of chemistry of Tribhuvan Multiple Campus for
+providing all the facilities to conduct this research work.
+
+## **References**
+
+
+Adelowo, F. E., &Agele, S. O. (2016). Spectrophotometric analysis of phosphate concentration
+in agricultural soil samples and water samples using molybdenum blue method. _Brazilian_
+_Journal of Biological Sciences_, _3_ (6), 407–412. https://doi.org/10.21472/bjbs.030616
+
+Agbazue, V. E., Ekere, N. R., &Shaibua, Y. (2015). Assessment of the levels of phosphate in
+detergents samples. _International  Journal of  Chemical  Sciences_, 13(2), 771–
+785.https://www.researchgate.net/publication/282282006_Assessment_of_the_levels_of_p
+hosphate_in_detergents_samples
+
+Audu, A.A. & Yusuf, S. (2015). An Assessment of the Levels of Phosphate in Local and
+Foreign Detergents in  Kano  Metropolis, Kano, Nigeria. _ChemSearchJournal_, 6(1), 1–7.
+https://doi.org/10.4314/csj.v6i1.1
+
+
+lqe'jg hg{n _**(Tribhuvan Journal)**_ 137
+
+
+
+-----
+
+_**Volume : 1, Issue : 1, ISSN : 2961-1520**_
+
+
+Hossain, M., Rana, M., Sarkar, A., &Khandaker, T. (2017). Comparative analysis of
+someBangladeshi detergents. _Bangladesh Journal of Scientific and Industrial Research_,
+52(4),321–324. https://doi.org/10.3329/bjsir.v52i4.34818
+
+Kundu, S., VassandaCoumar, M., Rajendiran, S., Ajay, &Subba Rao, A. (2015). Phosphates
+fromdetergents and eutrophication of surface water ecosystem in India. _Current Science_,
+_108_ (7),1320–1325. https://doi.org/10.18520/cs/v108/i7/1320-1325
+
+Nalumansi, I.,  Birungi, G.,  Moodley, B.,  &Tebandeke, E. (2020).  Spectrophotometric
+Determination of Low Levels of the Orthophosphate Anion as Molybdenum Blue
+usingSodium Thiosulphate Reducing agent. _Oriental Journal of Chemistry_, 36(6), 1066–
+1077. https://doi.org/10.13005/ojc/360608
+
+Oladeji, S., Adelowo, F., &Odelade, K. (2016). Evaluation of Phosphate Level in Water
+Samples (Ogbomoso Rivers) Using UV-Visible Spectrophotometric Method. _International_
+_Journal of Scientific     Research in     Environmental     Sciences_, 4(4), 102–108.
+https://doi.org/10.12983/ijsres-2016-p0102-0108
+
+Oliveira, M., & Machado, A. V. (2013). The role of phosphorus on eutrophication: a historical
+review and future perspectives. _Environmental  Technology  Reviews_, 2(1), 117–127.
+https://doi.org/10.1080/21622515.2013.861877
+
+Pradhan, S., &Pokhrel, M. R. (2013). Spectrophotometric Determination of Phosphate in
+Sugarcane Juice, Fertilizer, Detergent, and Water Samples by Molybdenum Blue Method.
+_Scientific World_, _11_ (11), 58–62. https://doi.org/10.3126/sw.v11i11.9139
+
+Shyla, B., Mahadevaiah, &Nagendrappa, G. (2011). A simple spectrophotometric method for
+the determination of phosphate in soil, detergents, water, bone, and food samples through
+the formation of phosphomolybdate complex followed by its reduction with thiourea.
+_Spectrochimica Acta - Part A: Molecular and Biomolecular Spectroscopy_, _78_ (1), 497–502.
+https://doi.org/10.1016/j.saa.2010.11.017
+
+
+**�** [138] lj1;dLlIft cGtlj{ifos hg{n _**(Peer Reviewed Interdisciplinary Journal)-**_ @)&(
+
+
